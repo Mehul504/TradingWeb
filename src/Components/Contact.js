@@ -60,7 +60,7 @@ const Contact= (props) =>{
               <i className="fas fa-globe"></i>
               <div>
                 <h5>Website</h5>
-                <p className='p-tag'>www.vkstockvission.com</p>
+                <p className='p-tag'>mmtrading.netlify.app</p>
               </div>
             </div>
             </div>
