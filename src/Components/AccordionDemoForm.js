@@ -118,7 +118,7 @@ const AccordionDemoForm = (props) => {
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="trading" className="form-label">Are you currently trading?</label>
-                                <select id="trading" required className="form-select" onChange={handleChange} >
+                                <select id="trading" required className="form-select" onChange={handleChange}  value={formData.trading}>
                                     <option value="">Select Option</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
@@ -128,7 +128,7 @@ const AccordionDemoForm = (props) => {
                                 <div className="col-md-6">
                                     <div className="mb-3">
                                         <label htmlFor="segment" className="form-label">Segment</label>
-                                        <select id="segment" required className="form-select" onChange={handleChange} >
+                                        <select id="segment" required className="form-select" onChange={handleChange} value={formData.segment}>
                                             <option value="">Select Segment</option>
                                             <option value="Equity Cash/Intraday">Equity Cash/Intraday</option>
                                             <option value="Option (Call/Put)">Option (Call/Put)</option>
@@ -140,7 +140,7 @@ const AccordionDemoForm = (props) => {
                                 <div className="col-md-6">
                                     <div className="mb-3">
                                         <label htmlFor="investment" className="form-label">Investment Amount</label>
-                                        <select id="investment" className="form-select" onChange={handleChange} >
+                                        <select id="investment" className="form-select" onChange={handleChange} value={formData.investment}>
                                             <option value="">Select Amount</option>
                                             <option value="Below ₹50,000">Below ₹50,000</option>
                                             <option value="₹50,000 - 1 Lakh">₹50,000 - 1 Lakh</option>
