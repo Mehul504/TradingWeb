@@ -4,6 +4,8 @@ import { getFirestore, collection, addDoc } from 'firebase/firestore';
 const AccordionDemoForm = (props) => {
 
     const [openIndex, setOpenIndex] = useState(null);
+    const [error, setError] = useState('');
+    const [success, setSuccess] = useState('');
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -23,14 +25,35 @@ const AccordionDemoForm = (props) => {
     const db = getFirestore(app);
     const addData = async (e) => {
         e.preventDefault();
-        console.log('formData',formData)
+        setError('');
+        setSuccess('');
+    
+        const isEmpty = Object.values(formData).some(value => value.trim() === '');
+    
+        if (isEmpty) {
+            setError('Please fill in all the fields before submitting.');
+            return;
+        }
+    
         try {
             const docRef = await addDoc(collection(db, 'users'), formData);
             console.log('Document written with ID: ', docRef.id);
+            setSuccess('Form submitted successfully!');
+            setFormData({ // Reset form
+                firstName: '',
+                lastName: '',
+                email: '',
+                phone: '',
+                trading: '',
+                segment: '',
+                investment: '',
+            });
         } catch (e) {
             console.error('Error adding document: ', e);
+            setError('Something went wrong. Please try again.');
         }
     };
+    
     return (
         <div class={props.isMobile ? 'container-fluid faq-section pb-2' : "container-fluid pb-2"}>
             <div className= { props.isMobile ? '' : 'container overflow-hidden'}>
@@ -131,6 +154,8 @@ const AccordionDemoForm = (props) => {
                             <button type="submit" onClick={addData} className="w-100 my-3 btn btn-dark">Submit</button>
 
                         </form>
+                        {error && <div className="alert alert-danger">{error}</div>}
+{success && <div className="alert alert-success">{success}</div>}
                     </div>
                 </div>
             
