@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from "../asserts/mm-01.png"
 
 const Footer = (props) => {
     console.log(' props.isMobile ', props.isMobile )
@@ -10,11 +10,10 @@ const Footer = (props) => {
             <div className="container">
                 <div className="footer-section">
                     <a href="/">
-                        <img src="/static/media/stockoption1.231d4ac9e944108d467e.png" alt="Vkstock Vision" className="footer-logo" />
+                        <img src={Image} alt="Vkstock Vision" className="footer-logo" />
                     </a>
                     <p>
-                        Vkstock Vision offers expert insights and tailored strategies for navigating the financial markets.
-                        Our team is dedicated to providing you with the tools and knowledge to make informed investment decisions.
+                    MM Trading delivers expert analysis and customized strategies to help you navigate the financial markets with confidence. Our dedicated team equips you with the essential tools and insights needed to make smart, informed investment choices.
                     </p>
                 </div>
                 <div className="footer-section">

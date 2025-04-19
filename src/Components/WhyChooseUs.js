@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
       <div className="">
         {/* Heading Section */}
         <div className="text-center mb-5">
-          <h4 className="text-primary fw-bold text-uppercase">Why Choose Vkstock Vission?</h4>
+          <h4 className="text-primary fw-bold text-uppercase">Why Choose MM Trading?</h4>
           <h2 className="text-dark fw-bold">
             The Trusted <span className="text-primary">Analyzer Firm</span> by Traders
           </h2>
@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
                 </li>
                 <li>
                   <i className="fas fa-check-circle text-success me-2"></i>
-                  Opt for <strong>Vkstock Vission Alerts</strong>—Your primary choice for reliable market guidance.
+                  Opt for <strong>MM Trading Alerts</strong>—Your primary choice for reliable market guidance.
                 </li>
               </ul>
             </div>
@@ -65,22 +65,23 @@ const WhyChooseUs = () => {
           <div className="col-md-4">
             <div className="hover-slide">
               <i className="fas fa-chart-line fa-2x mb-3"></i>
-              <h5 className="fw-bold">Professional Insights</h5>
-              <p>Backed by years of industry experience and actionable data.</p>
+              <h5 className="fw-bold">Expert Insights</h5>
+              <p>Powered by deep industry knowledge and data-driven analysis you can trust.</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="hover-slide">
               <i className="fas fa-balance-scale fa-2x mb-3"></i>
-              <h5 className="fw-bold">Trusted Platform</h5>
-              <p>User-friendly trading tools for seamless decision-making.</p>
+              <h5 className="fw-bold">Straightforward & Practical</h5>
+              <p>Smart Tools. Seamless Trades. A platform that makes decision-making faster and easier.</p>
+
             </div>
           </div>
           <div className="col-md-4">
             <div className="hover-slide">
               <i className="fas fa-users fa-2x mb-3"></i>
-              <h5 className="fw-bold">Community of Traders</h5>
-              <p>Join a growing network of traders achieving consistent success.</p>
+              <h5 className="fw-bold">Empowering & Bold</h5>
+              <p>Success Through Connection. Trade smarter with a community that's serious about results.</p>
             </div>
           </div>
         </div>

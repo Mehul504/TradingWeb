@@ -6,7 +6,7 @@ const InvestmentPackages = () => {
             <div className="text-center mb-5 row">
                 <div className="col">
                     <p className="display-4" style={{ color: "black" }}>
-                        Uncover Hidden Opportunities: Tap into well-researched services with proper guidance and support.
+                        Discover Untapped Potential: Access expertly researched services with comprehensive guidance and support.
                     </p>
                 </div>
             </div>
@@ -20,11 +20,9 @@ const InvestmentPackages = () => {
                     />
                 </div>
                 <div className="text-center text-lg-start col-lg-6">
-                    <h4>Invest Wisely with our Affordable Package Options for Maximum Trading Potential</h4>
+                    <h4>Make Smart Investments with Our Budget-Friendly Packages for Optimal Trading Success.</h4>
                     <p>
-                        Explore our thoughtfully curated options, each offering a unique combination of features and benefits. Whether you're a beginner 
-                        seeking guidance or an experienced trader, our packages are tailored to empower your trading experience. Choose the package that 
-                        aligns with your goals and dive into the world of trading with confidence.
+                    Explore our carefully crafted packages, each offering a distinct mix of features and advantages. Whether you're new to trading and need guidance or a seasoned trader looking for advanced tools, our options are designed to enhance your trading journey. Select the package that fits your goals and start trading with confidence.
                     </p>
                     {/* <button 
                         type="button" 
