@@ -24,24 +24,18 @@ const Footer = (props) => {
                   
                     <a href="/contact">Contact Us</a>
                 </div>
-                <div className="footer-section">
+                {/* <div className="footer-section">
                     <h4>Support</h4>
                     <a href="/privacy-policy">Privacy Policy</a>
                     <a href="/tandc">Terms & Conditions</a>
                     <a href="/legal-disclaimer">Legal Disclaimer</a>
                     <a href="/refund-policy">Refund Policy</a>
-                </div>
+                </div> */}
                 <div className="footer-section">
                     <h4>Contact Info</h4>
                     <p>Mumbai</p>
-                    <p>Email: info@vkstockvission.com</p>
-                    <p>Phone: +91800048090</p>
-                    <div className="social-icons">
-                        <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
-                        <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-                        <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
-                        <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <p>Email: mmtrading504@gmail.com</p>
+                    <p>Phone: +919875094908</p>
                 </div>
             </div>
         </footer>

@@ -14,7 +14,7 @@ import InvestmentPackages from './Components/InvestmentPackages';
 import MobileHeader from './Components/MobileHeader';
 
 function App() {
-  const [openIndex, setOpenIndex] = useState(null);
+
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     // Check screen size on mount and on window resize

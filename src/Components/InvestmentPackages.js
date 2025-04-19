@@ -26,13 +26,13 @@ const InvestmentPackages = () => {
                         seeking guidance or an experienced trader, our packages are tailored to empower your trading experience. Choose the package that 
                         aligns with your goals and dive into the world of trading with confidence.
                     </p>
-                    <button 
+                    {/* <button 
                         type="button" 
                         className="btn btn-primary btn-lg" 
                         style={{ background: "rgb(0, 0, 0)", color: "rgb(255, 255, 255)",marginTop:"40px"}}
                     >
                         Explore Packages
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import WhyChooseUs from './WhyChooseUs';
 import Image from "../asserts/carousel-1.e41cf1e4b931b5edb8b0.jpg"
 const Contact= (props) =>{
     return (
@@ -43,7 +42,7 @@ const Contact= (props) =>{
               <i className="fas fa-envelope"></i>
               <div>
                 <h5>Mail Us</h5>
-                <p className='p-tag'>info@vkstockvission.com</p>
+                <p className='p-tag'>mmtrading504@gmail.com</p>
               </div>
             </div>
             </div>
@@ -53,7 +52,7 @@ const Contact= (props) =>{
               <i className="fas fa-phone"></i>
               <div>
                 <h5>Telephone</h5>
-                <p className='p-tag'>+91 8000489090</p>
+                <p className='p-tag'>+919875094908</p>
               </div>
             </div>
 

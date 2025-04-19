@@ -35,7 +35,10 @@ code {
   color :white;
   font-weight: 600;
 }
+.service-img img{
+  height: 350px;
 
+}
 .navbar {
   background-color: white;
   color: #000;
@@ -341,7 +344,6 @@ code {
 
 .hover-slide:hover {
   transform: translateY(-5px);
-  background-color: #28a745; /* Green color on hover */
   color: black;
 }
 

@@ -7,9 +7,9 @@ export default function MobileHeader() {
   return (
     <>
       <header className="header">
-      <img src={Logo1} alt="Stockoption Traders" width={66}/>
+      <img src={Logo1} alt="Stockoption Traders" width={66} />
               <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
-          <img src={Logo} width={40} />
+          <img src={Logo} width={40} alt='logo'/>
         </button>
       </header>
       {isOpen && (
@@ -18,7 +18,7 @@ export default function MobileHeader() {
           <a href="/about">About</a>
           <a href="/contact">Contact Us</a>
     
-                    <a href="https://wa.me/+918000489090" className="request-button" style={{margin: '10px'}}>
+                    <a href="https://wa.me/+919875094908" className="request-button" style={{margin: '10px'}}>
                         Request a Live Demo Call
                     </a>
            

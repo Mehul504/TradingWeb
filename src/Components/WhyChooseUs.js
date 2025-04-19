@@ -43,10 +43,9 @@ const WhyChooseUs = () => {
                 </li>
               </ul>
             </div>
-
-            <a href="#" className="btn btn-primary rounded-pill py-3 px-5 shadow-sm">
-              Get Started Today
-            </a>
+            <a href="https://wa.me/+919875094908" className="btn btn-primary rounded-pill py-3 px-5 shadow-sm">
+            Get Started Today
+                    </a>
           </div>
 
           {/* Right Section - Video */}
